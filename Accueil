@@ -1,0 +1,251 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="Je suis une digital marketer passionnée par l'innovation." />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Noémie Haddad - Digital Marketer" />
+    <meta property="og:description" content="Je suis une digital marketer passionnée par l'innovation." />
+    <meta property="og:url" content="https://noemiehaddad.com/" />
+    <meta property="og:site_name" content="Noémie Haddad - Digital Marketer" />
+    <meta property="og:image" content="https://noemiehaddad.com/images/cover-linkedin.jpg" />
+    <meta name="author" content="Noémie Haddad" />
+
+    <link rel="icon" href="./Noemie1.png">
+
+    <title>Noémie Haddad - Digital Marketer</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- AOS 2.3.1 jQuery plugin CSS (Animations) -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="style2.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">  </head>
+  <body>
+    <!-- Pre chargement de la page-->
+    <div class="bounce">
+      <div class="intro"> 👋🏻 Welcome !</div>
+      <div class="progress-bar">
+        <span class="bar">
+          <span class="progress"></span>
+        </span>
+      </div>
+    </div>
+    <header>
+        <nav role="navigation" class="navbar text-center justify-content-center navbar-expand d-block fixed-bottom  mb-lg-4 mb-sm-3">
+
+
+            <div  class="mainNav">
+         
+           
+                <ul class="navbar-nav">
+      
+                  <li class="nav-item active">
+                    <a id="nav-unicorn" class="act-link nav-link" href="./Accueil.html">
+                    Accueil<span class="sr-only">(current)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="nav-unicorn" class=" nav-link" href="projets.html">
+                    Projets
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="nav-unicorn" class=" nav-link" href="apropos.html">
+                    A propos
+                    </a>
+                  </li>
+                  <li class="nav-item">
+      
+                  <a id="nav-unicorn" class=" nav-link" href="mailto:n.haddadnoemie@gmail.com?subject=Prise%20de%20contact"target="_blank" class="adress">
+                    Contact
+                    </a>
+                  </li>
+                  <li class="nav-item d-flex align-items-center">
+                  </li>
+                </ul>
+              </div>
+      
+        </nav>
+      </header>   
+      <main role="main">
+        <section class="container-fluid video-background-holder zindexup">
+          <div class="row">
+            <div class="video-overlay"></div>
+            <div class="col-12 d-flex justify-content-end">
+              <button2 class="d-flex justify-content-end" id="mute" onclick="ToggleMute_UnMute()"></button2>
+            </div>
+            <video style="outline: 0!important;" poster="/images/Master-Showreel.jpg" class="embed-responsive embed-responsive-16by9 shadow-none" playsinline="playsinline" autoplay="autoplay" muted="muted" controls loop="loop">
+              <source class="embed-responsive-item" src="showreel/video1.mp4" type="video/mp4">
+            </video>
+            <script>
+                var video = document.querySelector('video').defaultPlaybackRate = 1.25;
+            </script>
+            <script>
+              var video = document.getElementsByTagName("video")[0];
+              video.controls = false;
+                function ToggleMute_UnMute() {
+                var mute = document.getElementById("mute");
+                if (video.muted) {
+                  video.muted = false;
+                  $("#mute").css("background-image","url(./images/sound.svg)");
+                      }
+                      else {
+                        $("#mute").css("background-image","url(./images/sound-off.svg)");
+                        video.muted = true;
+              
+                      }
+                    }
+            </script>
+          </div>
+          <div class="row h-100 top-content">
+            <div class="col-12 mt-60 mx-auto my-auto text-center buttons pb-75 container">
+                <br>
+              <h1 class="titre">Moi c'est <span class="nono" style="font-weight: 700;">Noémie</span><br><br></h1>
+              <h2 class="title-introduction intro-h1">Bienvenue sur mon portfolio! 👋🏻
+                    <br>
+                    <br>
+                </h2>
+              <div class="row justify-content-center col-xl-8 col-lg-9 col-sm-12 mx-auto mt-5 pb-5 mb-5 bouton">
+                <a href="#ancre" class="col-lg-auto col-md-auto col-sm-auto pl-5 pr-5 semibold mx-auto d-block bouton title heart">
+                    ➞  Découvrir mes compétences
+                </a>
+            </div>
+          </div>
+        </section>
+        <section class="pt-lg-5 pt-5">
+            <div class="container text-center mt-lg-5 mb-lg-2 pb-lg-3">
+              <div class="row">
+                <div id = "ancre" class="col-12">
+                  <h1 class="heading-black intro-h1-max text-gradient h2">COMPETENCES</h1>
+                  <h2 class="heading-black h2">Knowledge is power</h2>
+                  <p class="font-weight-normal f-h5m mt-4 mb-lg-5 mb-5 pb-5 text-break color-subtitle w-md-100">Je cherche en permanence à me former et à renforcer mes connaissances.<br>De nature curieuse, j'aime comprendre le fonctionnement des choses, avoir la vision d'ensemble d'un projet et ne pas me limiter à un seul domaine.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <div class="container zindexup">
+      
+              <div class="row justify-content-center text-center">
+      
+                <div class="col-12">
+      
+                  <div class="row d-flex justify-content-center text-center"> 
+                        
+      
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4">
+                      <div class="skill-user-research p-0">
+                        <h2 class="skill-title mt-5 f-h2m zindexup">SEO</h2>
+                         <img class="img-fluid img1 no-lightense heart" src="logo/seo9.png" alt="seo">
+                        <p class="f-h5 p-0 pl-3 pr-3 pb-3 skill-text"></p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4">
+                      <div class="skill-rapid-prototyping p-0">
+                      <h2 class="skill-title mt-5 f-h2m">Analytics</h2>
+                      <img class="img-fluid img1 no-lightense heart" src="logo/analytics.png" alt="analytics">
+                      <p class="f-h5 p-0 pl-3 pr-3 pb-3 skill-text"></p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4">
+                      <div class="skill-visual-design p-0">
+                        <h2 class="skill-title mt-5 f-h2m">Contenus</h2>
+                        <img class="img-fluid img1 no-lightense heart" src="logo/content.png" alt="contenus">
+                        <p class="f-h5 p-0 pl-3 pr-3 pb-3 skill-text"></p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4">
+                      <div class="skill-interaction-design p-0">
+                        <h2 class="skill-title mt-5 f-h2m">UX-UI</h2>
+                        <img class="img-fluid img1 no-lightense heart" src="logo/uxui.png" alt="ux-ui">
+                        <p class="f-h5 p-0 pl-3 pr-3 pb-3 skill-text"></p>
+                      </div>
+                    </div>
+                  </div>
+      
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4">
+                      <div class="skill-motion-design p-0">
+                        <h2 class="skill-title mt-5 f-h2m">E-mailling - CRM</h2>
+                        <img class="img-fluid img1 no-lightense email heart" src="logo/email.png" alt="email">
+                        <p class="f-h5 p-0 pl-3 pr-3 pb-3 skill-text"></p>
+                      </div>
+                    </div>
+                  </div>
+              
+      
+                  <div class="col-lg-4 col-md-6 col-12">
+                    <div class="card mb-4">
+                      <div class="skill-frontend-dev p-0">
+                        <h2 class="skill-title mt-5 f-h2m">Dev Frontend</h2>
+                        <img class="img-fluid img1 no-lightense heart" src="logo/code4.png" alt="code">
+                        <p class="f-h5 p-0 pl-3 pr-3 pb-3 skill-text"></p>
+                      </div>
+                    </div>
+                  </div>
+                
+      
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>  
+          <section>
+            <div class="row justify-content-center col-xl-8 col-lg-9 col-sm-12 mx-auto mt-5 pb-5 mb-5">
+              <a href="./apropos.html" class="col-lg-auto col-md-auto col-sm-auto pl-5 pr-5 btn btn-primary semibold mx-auto d-block" >
+              Découvrir mon parcours  ➞
+              </a>
+            </div>
+          </section>
+      </main>
+
+      <footer class="pb-0 mb-0">
+        <section class="text-center">
+           <div class="container-fluid bg-sub-footer rounded-general">
+              <div class="row" >
+                 <div class="col-12 mb-5">
+                     <div class="pt-4">
+                        <h2>Restons en contact !</h2>
+                     </div>
+                    <button type="button" data-toggle="tooltip" data-placement="right" class="btn-outline-primary mt-4">
+                        <a href="mailto:n.haddadnoemie@gmail.com?subject=Prise%20de%20contact" target="_blank" class="adress">Envoyer un email 📮</a>
+                    </button>
+                    <br>
+                    <button type="button" data-toggle="tooltip" data-placement="right" data-copy="https://www.linkedin.com/in/no%C3%A9mie-haddad-webmarketing/" title="Copy to clipboard" class="btn-outline-primary mt-4">
+                        <a href="https://www.linkedin.com/in/no%C3%A9mie-haddad-webmarketing/" target="_blank" class="adress">Ajouter sur LinkedIn 💼</a>
+                    </button>
+                 </div>
+                 <div class="container-fluid rounded-general text-center bg-footer text-break text-break pb-5">
+                    <p class="my-auto p-4 f-h7 pb-0 pb-5">Grand Entretien M2 ESD A 🚀 - Août 2021 - Noémie Haddad</p>
+                    <br>
+                 </div>
+              </div>
+           </div>
+        </section>
+     
+     </footer>
+     <!-- Placed at the end of the document so the pages load faster -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+  setTimeout(function(){
+    $(".bounce").fadeOut("slow");
+},2000)
+</script>
+
+  </body>
+</html>
