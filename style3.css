@@ -1279,7 +1279,7 @@
           .timeline-img {
             width: 30px;
             height: 30px;
-            background: rgba(255,37,174,1);
+            background: #FF9E79;
             border-radius: 50%;
             position: absolute;
             left: 50%;
@@ -1319,7 +1319,7 @@
              padding-top: 20px;
          }
           .date {
-            background: rgba(255,37,174,1);
+            background: #FF9E79;
             display: inline-block;
             color: #FFFFFF;
             padding: 8px;
