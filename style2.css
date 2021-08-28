@@ -1218,8 +1218,8 @@
           --border-line: #DEDEDE;
           --clipboard: #999999;
           --blocwork-color: #ffffff;
-          --blocskill-gradient:linear-gradient(110deg,rgba(0,100,252,1)10%,rgba(255,1,255,1),rgba(252,222,25,1));
-          --menu-gradient:linear-gradient(110deg,rgba(0,100,252,1)10%,rgba(255,1,255,1));
+          --blocskill-gradient:linear-gradient(109.6deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1%);
+          --menu-gradient:linear-gradient(109.6deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1%);
           --subtitle: #707070;
           --bg-tab-bar: rgba(236,236,236,.9);
           --tile-section-shadow: 0.125rem 0.9375rem 3.125rem rgba(0,0,0,.05);
