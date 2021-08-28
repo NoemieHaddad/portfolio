@@ -1039,7 +1039,7 @@
   }
   
   .intro-h1-max {
-    font-size: 120px;
+    font-size: 10vw;
     line-height: 12vw;
   }
   
@@ -1290,7 +1290,7 @@
           .timeline-img {
             width: 30px;
             height: 30px;
-            background: #7b4efd;
+            background: rgba(255,37,174,1);
             border-radius: 50%;
             position: absolute;
             left: 50%;
@@ -1299,7 +1299,7 @@
           }
           
           .timeline-content a {
-            background: #7b4efd;
+            background: rgba(255,37,174,1);
             color: #FFFFFF;
             padding: 8px 20px;
             text-transform: uppercase;
@@ -1311,7 +1311,7 @@
             box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
           }
           .timeline-content a:hover, .timeline-content a:active, .timeline-content a:focus {
-            background: #a182ff;
+            background: rgb(167, 5, 107);
             color: #FFFFFF;
             text-decoration: none;
           }
@@ -1330,7 +1330,7 @@
              padding-top: 20px;
          }
           .date {
-            background: #f215fe;
+            background: rgba(250,237,56,1);
             display: inline-block;
             color: #FFFFFF;
             padding: 8px;
@@ -1446,7 +1446,7 @@
 
           .testimony{
             border-radius: 50px;
-            background:linear-gradient(110deg,rgba(126,2,209,1)10%,rgba(255,1,255,1));
+            background:linear-gradient(109.6deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1%);
             text-align: center;
             padding: 20px;
           }
