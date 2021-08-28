@@ -1219,7 +1219,7 @@
           }
           .timeline::before {
             content: '';
-            background: #C5CAE9;
+            background: rgba(255,37,174,1);
             width: 5px;
             height: 95%;
             position: absolute;
@@ -1300,7 +1300,7 @@
             box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
           }
           .timeline-content a:hover, .timeline-content a:active, .timeline-content a:focus {
-            background: rgb(167, 5, 107);
+            background: rgba(255,37,174,1);
             color: #FFFFFF;
             text-decoration: none;
           }
@@ -1319,7 +1319,7 @@
              padding-top: 20px;
          }
           .date {
-            background: rgba(250,237,56,1);
+            background: rgba(255,37,174,1);
             display: inline-block;
             color: #FFFFFF;
             padding: 8px;
