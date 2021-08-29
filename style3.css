@@ -1450,6 +1450,6 @@
           }
 
 	.img-fluidify {
-		max-width: 330px;
+		max-width: -webkit-fill-available;
 		height: auto;
 	}
