@@ -781,7 +781,7 @@
     background-color: black;
     border:none;
     padding: 16px;
-    border-radius: 22px;
+    border-radius: 5px;
     padding-right: 23px;
     padding-left: 23px;
     outline: none !important;
@@ -1279,7 +1279,7 @@
           .timeline-img {
             width: 30px;
             height: 30px;
-            background: #FF9E79;
+            background: rgba(255,37,174,1);
             border-radius: 50%;
             position: absolute;
             left: 50%;
@@ -1300,9 +1300,9 @@
             box-shadow: 0 1px 3px -1px rgba(0, 0, 0, 0.6);
           }
           .timeline-content a:hover, .timeline-content a:active, .timeline-content a:focus {
-            background: rgba(255,37,174,1);
-            color: #FFFFFF;
-            text-decoration: none;
+            color: var(--btn-color);
+            background: var(--blocskill-gradient);
+            border:none;
           }
 
          .timeline-content h2 {
@@ -1319,7 +1319,7 @@
              padding-top: 20px;
          }
           .date {
-            background: #FF9E79;
+            background: rgba(255,37,174,1);
             display: inline-block;
             color: #FFFFFF;
             padding: 8px;
