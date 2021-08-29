@@ -1438,7 +1438,7 @@
           }
 
           .testimony{
-            border-radius: 50px;
+            border-radius: 5px;
             background:linear-gradient(109.6deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1%);
             text-align: center;
             padding: 20px;
