@@ -250,11 +250,11 @@
   
   
   .rounded-general {
-    border-radius: 50px;
+    border-radius: 5px;
   }
   
   .rounded-bottom{
-    border-radius: 0 0 50px 50px!important;
+    border-radius: 0 0 5px 5px!important;
   }
   
   
@@ -416,7 +416,7 @@
   }
   
   .img-fluid {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 
 }
@@ -1158,7 +1158,7 @@
   
   .mainNav {
     background-color: var(--bg-tab-bar);
-    border-radius: 15px;
+    border-radius: 5px;
     padding: 9px;
     display: inline-flex;
     pointer-events: all;
@@ -1188,8 +1188,8 @@
       }
       
       .skill-user-research{
-        border-radius: 50px;
-        background:linear-gradient(110deg,rgba(0,100,252,1)10%,rgba(106,255,255,1));
+        border-radius: 20px;
+        background:linear-gradient( 140deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
       }
       :root {
           --primary-color: #111111;
