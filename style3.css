@@ -1448,3 +1448,8 @@
               max-width: 60px;
 
           }
+
+	.img-fluidify {
+		max-width: 100%;
+		height: auto;
+	}
