@@ -729,7 +729,7 @@
     background-color: var(--secondary-color);
     border: none!important;
     padding: 14px;
-    border-radius: 22px;
+    border-radius: 5px;
     outline: none !important;
   }
   .fixed-b {
