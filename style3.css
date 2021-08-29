@@ -506,7 +506,7 @@
     background-color: var(--bg-footer);
     color: var(--font-color-footer);
     font-size: 18px;
-    border-radius: 20px 20px 0 0;
+    border-radius: 5px 5px 0 0;
   }
   
   .bg-sub-footer {
