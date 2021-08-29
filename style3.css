@@ -190,28 +190,28 @@
     resize: none;
   }
   .skill-rapid-prototyping{
-    border-radius: 50px;
-    background:linear-gradient(110deg,rgba(126,2,209,1)10%,rgba(255,1,255,1));
+    border-radius: 20px;
+    background:linear-gradient( 140deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
   }
   
   .skill-visual-design{
-    border-radius: 50px;
-    background:linear-gradient(110deg,rgba(252,93,25,1)10%,rgba(252,222,25,1));
+    border-radius: 20px;
+    background:linear-gradient( 140deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
   }
   
   .skill-interaction-design{
-    border-radius: 50px;
-    background:linear-gradient(110deg,rgba(255,0,92,1)10%,rgba(255,0,150,1));
+    border-radius: 20px;
+    background:linear-gradient( 140deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
   }
   
   .skill-motion-design{
-    border-radius: 50px;
-    background:linear-gradient(110deg,rgba(86,32,255,1)10%,rgba(148,114,255,1));
+    border-radius: 20px;
+    background:linear-gradient( 140deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
   }
   
   .skill-frontend-dev{
-    border-radius: 50px;
-    background:linear-gradient(110deg,rgba(0,153,89,1)10%,rgba(0,255,151,1));
+    border-radius: 20px;
+    background:linear-gradient( 140deg, rgba(255,37,174,1) 11.2%, rgba(250,237,56,1) 91.1% );
   }
   
   
@@ -1089,7 +1089,7 @@
   .f-h8 {
       font-size: 12px;
       line-height: 22px;
-      border-radius: 11px;
+      border-radius: 5px;
       color: #111111;
   }
   h1,
