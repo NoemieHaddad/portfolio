@@ -67,7 +67,7 @@
 .nono {
     color: var(--btn-color)!important;
     background: var(--blocskill-gradient);
-    border-radius: 19px;
+    border-radius: 5px;
     padding-left: 1rem!important;
     padding-right: 1rem!important;
 }
@@ -506,7 +506,7 @@
     background-color: var(--bg-footer);
     color: var(--font-color-footer);
     font-size: 18px;
-    border-radius: 50px 50px 0 0;
+    border-radius: 20px 20px 0 0;
   }
   
   .bg-sub-footer {
@@ -871,7 +871,7 @@
     color: var(--btn-bg-primary-hover);
     border-color: var(--btn-bg-primary-hover);
     padding: 16px;
-    border-radius: 22px;
+    border-radius: 5px;
     padding-right: 23px;
     padding-left: 23px;
   }
@@ -977,7 +977,7 @@
   .act-link{
     color: var(--btn-color)!important;
     background: var(--blocskill-gradient);
-    border-radius: 19px;
+    border-radius: 5px;
     padding-left: 1rem!important;
     padding-right: 1rem!important;
   }
