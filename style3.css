@@ -1286,6 +1286,10 @@
             margin-top: 25px;
             margin-left: -15px;
           }
+
+	  .timeline-img:hover {
+	    border-color: rgba(255,37,174,1);
+	  }
           
           .timeline-content a {
             background: rgba(255,37,174,1);
