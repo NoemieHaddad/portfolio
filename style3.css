@@ -1159,9 +1159,12 @@
   .mainNav {
     background-color: var(--bg-tab-bar);
     border-radius: 5px;
-    padding: 9px;
     display: inline-flex;
     pointer-events: all;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 2px;
+    padding-right: 2px;
     }
   
     @-webkit-keyframes bounce {
